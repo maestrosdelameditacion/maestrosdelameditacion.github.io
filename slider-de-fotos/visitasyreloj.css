@@ -1,0 +1,64 @@
+/*aplicando estilos a elementos html*/
+
+body{background-color:powderblue; }
+
+body{background-color: coral; background-image: url("fondos/mosaico3.jpg"); }
+
+/*aplicando estilos a capas*/
+
+#cabecera li{display:inline-block; 
+
+            border-style:solid;
+            
+            border-color:cadetblue;
+        
+            border-width: 3px;
+
+            border-radius: 10px;
+            
+            padding: 15px;
+        
+            background-color: rgba(burlywood, olive, chocolate, 0.5);
+        
+            margin-left:10px;
+            
+            margin-right:10px;
+        
+            font-weight: bold;
+        
+            font-size: 20px;}
+
+#cabecera li:hover {border-style:solid;
+            
+    border-color:rgb(30, 18, 202);
+
+    border-width: 3px;}
+
+#cabecera li a {font-family: 'Courier New', Courier, monospace; 
+            
+                color: burlywood; 
+            
+                text-decoration: none; 
+            
+                font-weight: bold; 
+            
+                font-size: 20px;}
+
+                
+
+#cabecera li a:hover { color: blue ;
+                                    
+                       font-weight: bold; }             
+
+
+#cabecera h2 {color:red; text-align: center; }
+
+#contenido {background-color: darkkhaki; }
+
+#contenido p{background-color:rgb(153, 152, 152); }
+
+#pie {background-color:yellowgreen; }
+
+#pie h2{color:blue; text-align: left;}
+
+#pie h3 {color:chocolate; text align: right;}

@@ -1,0 +1,103 @@
+
+
+/* aplicando estilos a elementos html */
+
+body{background-image:url("imagenes/fondo\ meditacion.jpg")}
+	
+h1 {text-align: center; text-decoration: underline;}
+
+
+/* aplicando estilos a capas */
+
+#botones {background-color: brown;}
+
+
+
+/* aplicando estilos a formularios html */
+
+
+
+
+
+
+
+ 
+/* Apply this class to some text to add 3d text effect! */
+.DText {
+	font-family:Garamond, serif;
+	line-height:1em;
+	color:#16a6b1;
+	font-weight:bold;
+	font-size:134px;
+	text-shadow:0px 0px 0 rgb(231,231,231),1px 1px 0 rgb(216,216,216),2px 2px 0 rgb(202,202,202),3px 3px 0 rgb(187,187,187),4px 4px 0 rgb(173,173,173),5px 5px 0 rgb(158,158,158), 6px 6px 0 rgb(144,144,144),7px 7px 6px rgba(0,0,0,0.6),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);}
+
+/* aplicando estilos a clases*/
+
+
+.slideshow {margin:0px auto; }
+.slideshow img { padding: 10px; border: 1px solid #ccc; background-color: #eee; }
+
+.alinear-derecha {text-align: right;}
+
+/* aplicando estilos a botones */
+
+
+
+
+
+.ClassName {
+	font-weight:bold;
+	text-decoration:none;
+	font-family:Verdana;
+	box-shadow:inset #000000 0px 5px 8px -1px,#000000 1px 3px 2px;
+	o-box-shadow:inset #000000 0px 5px 8px -1px,#000000 1px 3px 2px;
+	-moz-box-shadow:inset #000000 0px 5px 8px -1px,#000000 1px 3px 2px;
+	-webkit-box-shadow:inset #000000 0px 5px 8px -1px,#000000 1px 3px 2px;
+	background:#2ef1ff;
+	background:-o-linear-gradient(90deg, #2ef1ff, #3b9ceb);
+	background:-moz-linear-gradient( center top, #2ef1ff 5%, #3b9ceb 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2ef1ff), color-stop(1, #3b9ceb) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2ef1ff', endColorstr='#3b9ceb');
+	background:-webkit-linear-gradient(#2ef1ff, #3b9ceb);
+	background:-ms-linear-gradient(#2ef1ff, #3b9ceb);
+	background:linear-gradient(#2ef1ff, #3b9ceb);
+	text-indent:0px;
+	line-height:25px;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+	font-size:20px;
+	color:#ffffff;
+	width:150px;
+	height:50px;
+	padding:10px;
+	text-shadow:#000000 2px 2px 0px;
+	border-color:#000000;
+	border-width:3px;
+	border-style:solid;
+}
+
+.ClassName:active {
+	box-shadow:inset #000000 0px 5px 8px -1px,#000000 1px 0 2px;
+	o-box-shadow:inset #000000 0px 5px 8px -1px,#000000 1px 0 2px;
+	-moz-box-shadow:inset #000000 0px 5px 8px -1px,#000000 1px 0 2px;
+	-webkit-box-shadow:inset #000000 0px 5px 8px -1px,#000000 1px 0 2px;
+	position:relative;
+	top:3px
+}
+
+.ClassName:hover {
+	background:#3b9ceb;
+	background:-o-linear-gradient(90deg, #3b9ceb, #2ef1ff);
+	background:-moz-linear-gradient( center top, #3b9ceb 5%, #2ef1ff 100% );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3b9ceb), color-stop(1, #2ef1ff) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b9ceb', endColorstr='#2ef1ff');
+	background:-webkit-linear-gradient(#3b9ceb, #2ef1ff);
+	background:-ms-linear-gradient(#3b9ceb, #2ef1ff);
+	background:linear-gradient(#3b9ceb, #2ef1ff);
+}
+
+
