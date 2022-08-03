@@ -1,0 +1,10 @@
+/*aplicando estilos a elementos html*/
+
+body{background-color: burlywood;}
+
+h1 {text-align: center; text-decoration: underline;}
+
+/*aplicando estilos a clases*/
+
+.slideshow {height:420px; width:620px; margin:0px auto; }
+.slideshow img { padding: 10px; border: 1px solid #ccc; background-color: #eee; }
